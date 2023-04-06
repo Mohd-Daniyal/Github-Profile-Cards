@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>User Cards for GitHub</title>
+  </head>
+  <body>
+    <h2>Get Github Profile Cards!</h2>
+    <form class="user-form" id="form">
+      <input
+        type="text"
+        id="search"
+        placeholder="Search a Github User"
+        autocomplete="off"
+      />
+    </form>
+
+    <main id="main">
+    
+    </main>
+
+    <div class="page-footer" style="width: 100%">
+      <div class="row">
+        <div class="icondiv">
+          <a class="fb-ic icon">
+            <i class="fab fa-facebook mr-4"></i>
+          </a>
+
+          <a class="ins-ic icon">
+            <i class="fab fa-instagram mr-4"></i>
+          </a>
+
+          <a class="gplus-ic icon">
+            <i class="fab fa-google-plus mr-4"></i>
+          </a>
+
+          <a
+            class="li-ic icon"
+            href="https://www.linkedin.com/in/mohd-daniyal-hasan-019a63189"
+          >
+            <i class="fab fa-linkedin mr-4"></i>
+          </a>
+
+          <a class="li-ic icon" href="https://github.com/Mohd-Daniyal">
+            <i class="fab fa-github"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <a onclick="getUser('MOHD-DANIYAL')" class="copyright"
+        >© Mohd. Daniyal Hasan
+      </a>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
